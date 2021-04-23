@@ -16,4 +16,4 @@ Rodando em [`localhost:4000`](http://localhost:4000)
 
 *  GET Suprimentos - `/api/supplies/{id}`
 
-*  POST Suprimentos - `/api/supplies/{id}`
+*  POST Suprimentos - `/api/supplies/`
