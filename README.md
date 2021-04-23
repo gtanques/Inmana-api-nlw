@@ -9,7 +9,7 @@
   * Criar BD e tabelas `mix ecto.setup`
   * rodar servidor `mix phx.server`
 
-Rodando em [`localhost:4000`](http://localhost:4000).
+Rodando em [`localhost:4000`](http://localhost:4000)
 
 ### Rotas
 * POST Restaurante - `/api/retaurants/`
