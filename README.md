@@ -1,19 +1,19 @@
 # Inmana
+### Gerenciamento inteligente de data de validade.
+![Badge](https://img.shields.io/badge/Elixir-1.11.3%20-green)
+  
+  
+  Iniciar Phoenix servidor:
 
-To start your Phoenix server:
+  * Instalar dependências `mix deps.get`
+  * Criar BD e tabelas `mix ecto.setup`
+  * rodar servidor `mix phx.server`
 
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.setup`
-  * Start Phoenix endpoint with `mix phx.server`
+Rodando em [`localhost:4000`](http://localhost:4000).
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+### Rotas
+* POST Restaurante - `/api/retaurants/`
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+*  GET Suprimentos - `/api/supplies/{id}`
 
-## Learn more
-
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+*  POST Suprimentos - `/api/supplies/{id}`
